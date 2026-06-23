@@ -28,7 +28,7 @@ const Contact = () => {
 
     return (
       <Section icon={<Globe></Globe>} sectionTitle="Contact & Social Media">
-        <p className="text-gray-700 mb-4">
+        <p className=" text-white">
           Email:abhishekkesharwani173@gmail.com<br></br>
           Phone: 9305986527
         </p>
@@ -38,7 +38,6 @@ const Contact = () => {
             text={socil.text}
             url={socil.url}
             key={socil.text}
-            
           ></Socialmedia>
         ))}
       </Section>

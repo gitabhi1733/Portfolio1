@@ -1,14 +1,50 @@
+// import { User } from "lucide-react";
+// import Section from "./section";
+// const About = () => {
+//   return (
+//     <Section icon={<User></User>} sectionTitle="About Me">
+//       <p>
+//         I am a BCA student passionate about web development and modern
+//         technologies. I am currently learning frontend and backend development
+//         and working on small projects to improve my skills. My goal is to start
+//         my career in the IT industry as a developer.
+//       </p>
+//     </Section>
+//   );
+// };
+// export default About;
+
 import { User } from "lucide-react";
 import Section from "./section";
+
 const About = () => {
   return (
-    <Section icon={<User></User>} sectionTitle="About Me">
-      <p>
-        I,m a passionate full stack developer with 5 years of experience in
-        building web applications. I love creating efficient, scalable, and
-        user-friendly solutions to complex problems.
-      </p>
+    <Section icon={<User />} sectionTitle="About Me">
+      <div
+        className="
+          bg-gradient-to-br from-slate-900 to-slate-800
+          text-slate-200
+          p-6 md:p-8
+          rounded-2xl
+          shadow-lg
+          border border-slate-700
+          transition-all duration-300
+          hover:shadow-2xl
+          hover:-translate-y-2
+          hover:border-cyan-400
+        "
+      >
+        <p className="text-base md:text-lg leading-8">
+          I am a BCA student passionate about web development and modern
+          technologies. I am currently learning frontend and backend
+          development while building real-world projects to strengthen my
+          skills. My goal is to start my career as a Full Stack Developer and
+          create impactful digital experiences through clean, efficient, and
+          user-friendly applications.
+        </p>
+      </div>
     </Section>
   );
 };
+
 export default About;
