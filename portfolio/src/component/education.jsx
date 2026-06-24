@@ -6,9 +6,10 @@ const Education = () => {
     return (
       <Section icon={<BookOpen></BookOpen>} sectionTitle="Education">
         <Graduation
-          title="Bachelor of Computer Applications(BCA)"
+          title="Bachelor of Computer Applications (BCA)"
           school="Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj"
-          year="Year: 2023 – 2026 (Pursuing)"
+          year="2023 – 2026"
+          grade="71%"
         ></Graduation>
         <Graduation
           title="Full Stack web Development Bootcamp"

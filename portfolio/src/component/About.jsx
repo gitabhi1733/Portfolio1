@@ -35,12 +35,15 @@ const About = () => {
         "
       >
         <p className="text-base md:text-lg leading-8">
-          I am a BCA student passionate about web development and modern
-          technologies. I am currently learning frontend and backend
-          development while building real-world projects to strengthen my
-          skills. My goal is to start my career as a Full Stack Developer and
-          create impactful digital experiences through clean, efficient, and
-          user-friendly applications.
+          I am a BCA student and aspiring Full Stack Developer with hands-on
+          experience in the MERN stack (MongoDB, Express.js, React, and
+          Node.js). I have built real-world web applications that helped me
+          strengthen my frontend and backend development skills. I enjoy
+          creating responsive, user-friendly, and scalable applications while
+          continuously learning modern web technologies and best practices. My
+          goal is to contribute to innovative projects, solve real-world
+          problems through technology, and grow as a professional software
+          developer.
         </p>
       </div>
     </Section>

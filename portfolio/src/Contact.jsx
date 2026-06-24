@@ -30,7 +30,7 @@ const Contact = () => {
       <Section icon={<Globe></Globe>} sectionTitle="Contact & Social Media">
         <p className=" text-white">
           Email:abhishekkesharwani173@gmail.com<br></br>
-          Phone: 9305986527
+          Phone: 7307731562
         </p>
         {socialLinks.map((socil) => (
           <Socialmedia
